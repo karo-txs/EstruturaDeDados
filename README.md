@@ -15,6 +15,6 @@
                 
 + [Árvore Binária de Busca](https://github.com/AFKaro/EstruturaDeDados/tree/main/Arvores/ABB)
 + [Árvore AVL](https://github.com/AFKaro/EstruturaDeDados/tree/main/Arvores/AVL/src/arvoreavl)
-+ Árvore Preto e Vermelho
++ [Árvore Preto e Vermelho](https://github.com/AFKaro/EstruturaDeDados/tree/main/Arvores/RedBlack/Red-Black-Tree)
 + Árvore B
 + Árvore B+
