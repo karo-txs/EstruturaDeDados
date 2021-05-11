@@ -51,25 +51,32 @@ public class SortingApp {
     }
 
     public static void main(String[] args) {
+        System.out.println("Bubble");
         SortingApp app = new SortingApp(new BubbleSort());
         int[] dummyData = getDummyData();
         testSort(app, dummyData);
 
+        System.out.println("Selection");
         app.changeStrategy(new SelectionSort());
         testSort(app, dummyData);
 
+        System.out.println("Insertion");
         app.changeStrategy(new InsertionSort());
         testSort(app, dummyData);
 
+        System.out.println("Shell");
         app.changeStrategy(new ShellSort());
         testSort(app, dummyData);
 
+        System.out.println("Merge");
         app.changeStrategy(new MergeSort());
         testSort(app, dummyData);
 
+        System.out.println("Quick");
         app.changeStrategy(new QuickSort());
         testSort(app, dummyData);
 
+        System.out.println("Heap");
         app.changeStrategy(new HeapSort());
         testSort(app, dummyData);
     }
