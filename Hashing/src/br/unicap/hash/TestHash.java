@@ -17,7 +17,7 @@ public class TestHash {
 
     public static void main(String[] args){
         int[] dummyData = getDummyData();
-        int valueTest = 100;
+        int valueTest = 66;
         boolean enteredValue = false;
 
         HashingByMultiplication hashMultiplication = new HashingByMultiplication();
