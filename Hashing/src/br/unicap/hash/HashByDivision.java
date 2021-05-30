@@ -2,7 +2,7 @@ package br.unicap.hash;
 
 public class HashByDivision implements HashSimplified{
 
-    final int TAMANHO = 91;
+    final int TAMANHO = 97;
     Integer [] espaco = new Integer[TAMANHO];
     int counter = 0;
 

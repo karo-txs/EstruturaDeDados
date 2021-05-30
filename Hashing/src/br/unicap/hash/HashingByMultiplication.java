@@ -5,7 +5,7 @@ public class HashingByMultiplication implements HashSimplified{
 
     final double A = 49; // 64 e 49 são primos entre si
     final double w = 64;
-    final int TAMANHO = 258; // 2^8
+    final int TAMANHO = 97;
     Integer [] space = new Integer[TAMANHO];
     int counter = 0;
 

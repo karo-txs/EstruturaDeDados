@@ -3,7 +3,7 @@ package br.unicap.hash;
 public class HashingByDivision_CollisionByDirectAddressing implements HashSimplified{
     // Hashing pelo resto da divisão com tratamento de colisão por endereçamento aberto (com re-haching)
 
-    final int TAMANHO = 500;
+    final int TAMANHO = 97;
     Integer [] space = new Integer[TAMANHO];
     int counter = 0;
 

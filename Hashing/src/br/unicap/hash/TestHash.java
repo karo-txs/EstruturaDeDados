@@ -4,7 +4,7 @@ import java.util.Random;
 public class TestHash {
 
     static final private int ARRAY_MAX_INT = 100;
-    static final private int ARRAY_MAX_ARRAY = 200;
+    static final private int ARRAY_MAX_ARRAY = 97;
 
     public static int[] getDummyData() {
         Random r = new Random();
